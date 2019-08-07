@@ -1,0 +1,45 @@
+---
+title: "Normal Distribution Simulation"
+author: "Corey L"
+date: "8/6/2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Normal Distribution Simulation  
+Purpose:
+This application was made to help young students understand the following attributes of random sampling by seeing their effects change in real time.
+
+- Central Limit theory 
+- Standard Deviation
+- Central tenancy around the mean
+
+## Controls
+
+- Sample Size (1 - 100,000)
+- Standard Deviation (1 - 250)
+- Mean (1 - 250)  
+
+## Method used for histogram generation  
+The inputs taken from the sliders are then entered into a normal distribution by using the   `rnorm()` function:    
+`normdist <- rnorm(num_samp, mean= means, sd= stddev)`   
+
+The histogram plot was created with the following code, providing 100 breaks of separation. 
+
+`hist(normdist, breaks = 100, col = 'skyblue', border = 'grey') #plot`
+
+##
+This application is hosed on the shiny.io website at:  
+[izlid-lsso/Normal_dist](https://izlid-lsso.shinyapps.io/Normal_dist/)  
+
+And at my Github repo:  
+[izlid-lsso/Normal_dist](https://izlid-lsso.shinyapps.io/Normal_dist/)  
+
+Rpubs:
+[izlid-lsso/Normal_dist](https://izlid-lsso.shinyapps.io/Normal_dist/)  
+
+
+
