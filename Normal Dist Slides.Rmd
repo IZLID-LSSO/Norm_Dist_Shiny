@@ -33,13 +33,11 @@ The histogram plot was created with the following code, providing 100 breaks of 
 
 ##
 This application is hosed on the shiny.io website at:  
-[izlid-lsso/Normal_dist](https://izlid-lsso.shinyapps.io/Normal_dist/)  
+[izlid-lsso/Shiny.io](https://izlid-lsso.shinyapps.io/Normal_dist/)  
 
-And at my Github repo:  
-[izlid-lsso/Normal_dist](https://izlid-lsso.shinyapps.io/Normal_dist/)  
+And at my Github repo: [IZLID-LSSO/Github](https://github.com/IZLID-LSSO/Norm_Dist_Shiny)  
 
-Rpubs:
-[izlid-lsso/Normal_dist](https://izlid-lsso.shinyapps.io/Normal_dist/)  
+Rpubs: [IZLID-LSSO/Rpubs](http://rpubs.com/IZLID-LSSO/518083)  
 
 
 
